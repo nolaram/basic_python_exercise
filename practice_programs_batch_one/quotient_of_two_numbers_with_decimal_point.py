@@ -6,3 +6,4 @@ number_two = int(input("Enter your second number: "))
 quotient = number_one / number_two
 
 # print the quotient
+print(f"\nThe quotient of the two numbers is: {quotient}")
