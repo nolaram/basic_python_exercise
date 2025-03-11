@@ -9,3 +9,4 @@ for number in range(10):
                     count += 1
 
 # print how many are the odd numbers
+print(f"\nThe numbers with odd are: {count}")
