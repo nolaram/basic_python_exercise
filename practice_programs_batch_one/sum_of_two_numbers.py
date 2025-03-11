@@ -6,3 +6,4 @@ number_two = int(input("Enter your second number: "))
 summation = number_one + number_two
 
 # print the sum
+print(f"\nThe sum of the numbers is: {summation}")
