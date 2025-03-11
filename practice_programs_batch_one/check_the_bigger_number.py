@@ -1,4 +1,7 @@
 # input two numbers
+number_one = int(input('\nEnter your first number: '))
+number_two = int(input('Enter your second number: '))
+
 # check what is the bigger number
 # if number one is bigger
     # print "The bigger number is number one"
