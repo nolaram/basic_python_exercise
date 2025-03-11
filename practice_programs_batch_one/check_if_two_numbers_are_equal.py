@@ -8,4 +8,6 @@ if number_one == number_two:
     # print "The two numbers are equal"
     print("\nThe two numbers are equal")
 # if not equal
+else:
     # print "The two numbers are not equal"
+    print("\nThe two numbers are not equal")
