@@ -12,4 +12,6 @@ elif number_two > number_one:
     # print "The bigger number is number two"
     print(f"\nThe bigger number is: {number_two}")
 # if the two numbers are the same
+else:
     # print "The two numbers are equal"
+    print("The two numbers are equal")
