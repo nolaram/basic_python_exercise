@@ -8,3 +8,4 @@ for number in range(10):
         total += summation
 
 # print the sum
+print(f"\nThe result is: {total}")
