@@ -1,3 +1,4 @@
 # print zero to one hundred
-# check if ending with zero
+for number in range(101):
+    # check if ending with zero
 # print the number
