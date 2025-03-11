@@ -6,3 +6,4 @@ number_two = int(input("Enter your second number: "))
 product = number_one * number_two
 
 # print the product
+print(f"\nThe product of the numbers is: {product}")
