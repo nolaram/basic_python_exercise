@@ -12,5 +12,6 @@ while True:
         else:
             # print unique if the number has no same number in the list
             print("Unique")
-    # store the input number to the list
+        # store the input number to the list
+        store_input_number.append(input_number)
 # stops the program if not numerical value
