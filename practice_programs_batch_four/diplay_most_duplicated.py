@@ -16,5 +16,11 @@ while True:
 number_count = {}
 
 # count the frequency of number input
+for number in store_input_number:
+    if number in number_count:
+        number_count[number] += 1
+    else:
+        number_count[number] = 1
+
 # find the most frequent number input
 # print the result
