@@ -15,5 +15,8 @@ for input_number in store_input_number:
     for check in store_input_number:
         if input_number == check:
             count += 1
+    # store in unique numbers if not repeated
+    if count == 1:
+        unique_numbers.append(input_number)
 
 # print the result
