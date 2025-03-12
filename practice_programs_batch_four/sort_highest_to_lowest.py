@@ -6,8 +6,10 @@ while True:
     try:
 
         input_number = int(input("Enter a number: "))
+
+        # store input numbers
+        store_input_number.append(input_number)
         
-    # store input numbers
 # stop the program if not numerical
 # exit loop and sort the list to highest to lowest
     # print the result
