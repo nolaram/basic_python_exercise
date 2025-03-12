@@ -22,7 +22,7 @@ for input_number in store_input_number:
         unique_numbers.append(input_number)
 
 # print the result
-print("\nThe numbers that are unique are: ")
+print("\nThe numbers that are unique are:")
 
 # check if unique number has a stored unique number
 if len(unique_numbers) > 0:
