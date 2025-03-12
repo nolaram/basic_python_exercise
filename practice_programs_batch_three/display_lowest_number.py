@@ -8,6 +8,8 @@ while True:
         input_number = int(input("Enter a number: "))
 
         # store input number
+        stored_input_number.append(input_number)
+        
 # stop program if the input is not numerical
 # exit the loop and print the lowest number stored in the list
 # if no numbers were entered, print none 
