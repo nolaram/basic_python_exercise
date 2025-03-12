@@ -2,6 +2,11 @@
 stored_input_number = []
 
 # loop to ask for input number
+while True:
+    try:
+
+        input_number = int(input("Enter a number: "))
+
     # store input number to lost
 # stops program if not numerical value
 # exits loop and sorts the input numbers stored in list
