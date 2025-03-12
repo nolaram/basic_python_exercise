@@ -23,4 +23,12 @@ for number in store_input_number:
         number_count[number] = 1
 
 # find the most frequent number input
+most_frequent_number = None
+highest_count = 1
+
+for number, count in number_count.items():
+    if count > highest_count:
+        highest_count = count
+        most_frequent_number = number
+
 # print the result
