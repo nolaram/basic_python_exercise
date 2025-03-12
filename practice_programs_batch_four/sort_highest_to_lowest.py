@@ -16,6 +16,11 @@ while True:
         break
 
 # exit loop and sort the list to highest to lowest
+if store_input_number:
+    store_input_number.sort(reverse=True)
     # print the result
+    print("The entered numbers from highest to lowest is:")
+    for input_number in store_input_number:
+        print(input_number)
 # if no numbers were entered
     # print none
