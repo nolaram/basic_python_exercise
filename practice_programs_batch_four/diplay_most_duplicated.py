@@ -32,3 +32,7 @@ for number, count in number_count.items():
         most_frequent_number = number
 
 # print the result
+if most_frequent_number is not None:
+    print(f"The most frequent number that showed up is: {most_frequent_number}, appearing {highest_count} times")
+else:
+    print("No number was duplicated")
