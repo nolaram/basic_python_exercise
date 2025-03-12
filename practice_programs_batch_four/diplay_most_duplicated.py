@@ -5,7 +5,8 @@ store_input_number = []
 while True:
     try:
         input_number = int(input("Enter a number: "))
-    # store input numbers to list
+        # store input numbers to list
+        store_input_number.append(input_number)
 # stop program if input is not numerical
 # dictionary of every number input
 # count the frequency of number input
