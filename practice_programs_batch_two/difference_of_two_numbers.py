@@ -6,4 +6,4 @@ number_two = int(input("Enter your second number: "))
 difference = number_one - number_two
 
 # print the difference
-print(f"\nThe sum of the numbers is: {difference}")
+print(f"\nThe difference of the numbers is: {difference}")
