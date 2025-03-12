@@ -20,6 +20,7 @@ print("The numbers that are duplicated are:")
 if duplicate_number:
     for input_number in duplicate_number:
         print(input_number)
-# if no numbers entered
-
+# if no numbers duplicated
+else:
     # print none
+    print("There are no numbers duplicated")
