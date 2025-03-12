@@ -1,4 +1,6 @@
 # list of stored input numbers
+store_input_number = []
+
 # loop to ask input numbers
     # store input numbers
 # stop the program if not numerical
