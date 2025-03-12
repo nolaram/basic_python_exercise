@@ -9,8 +9,12 @@ while True:
 
         # store input number to list
         stored_input_number.append(input_number)
-        
-# stops program if not numerical value
+
+    # stops program if not numerical value
+    except ValueError:
+        print("The input must be numerical")
+        break
+    
 # exits loop and sorts the input numbers stored in list
     # print the result
 # if no numbers were entered
