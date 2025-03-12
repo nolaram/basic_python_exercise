@@ -1,4 +1,6 @@
-# list to store duplicate numbers
+# list to store input numbers
+store_input_number = []
+
 # a loop that asks to input a number
     # store the input number to the list 
     # print duplicate if the number has a same number in the list
