@@ -7,7 +7,9 @@ while True:
 
         input_number = int(input("Enter a number: "))
 
-    # store input number to lost
+        # store input number to list
+        stored_input_number.append(input_number)
+        
 # stops program if not numerical value
 # exits loop and sorts the input numbers stored in list
     # print the result
