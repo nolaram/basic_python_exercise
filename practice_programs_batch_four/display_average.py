@@ -13,6 +13,9 @@ while True:
         break
 
 # exit loop and check the average of the numbers in the list
+if store_input_number:
+    average = sum(store_input_number) / len(store_input_number)
     # print the result
+    print(f"The average of all numbers is: {average}")
 # if no numbers were entered
     # print none
