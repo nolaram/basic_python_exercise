@@ -2,6 +2,11 @@
 store_input_number = []
 
 # loop to ask input numbers
+while True:
+    try:
+
+        input_number = int(input("Enter a number: "))
+        
     # store input numbers
 # stop the program if not numerical
 # exit loop and sort the list to highest to lowest
