@@ -9,3 +9,4 @@ for number in range(10):
         count += 1
 
 # print how many is an even number
+print(f"\nThe total even numbers is: {count}")
