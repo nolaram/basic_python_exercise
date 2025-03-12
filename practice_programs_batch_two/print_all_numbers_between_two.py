@@ -7,3 +7,5 @@ if number_one > number_two:
     number_one, number_two = number_two, number_one
 
 # print the numbers
+for number in range (number_one + 1, number_two):
+    print(number)
