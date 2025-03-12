@@ -14,4 +14,5 @@ for input_number in store_input_numbers:
         # print the result
         print(input_number)
 # ignore all numbers that are all ready seen by the set
+        check_seen_numbers.add(input_number)
 
