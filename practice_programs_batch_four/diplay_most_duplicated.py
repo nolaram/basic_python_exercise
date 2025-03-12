@@ -13,6 +13,8 @@ while True:
         break
 
 # dictionary of every number input
+number_count = {}
+
 # count the frequency of number input
 # find the most frequent number input
 # print the result
