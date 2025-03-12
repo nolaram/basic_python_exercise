@@ -4,7 +4,7 @@ store_input_number = []
 for number in range(10):
     input_number = int(input(f"\nEnter a number {number + 1}: "))
     # store the input number to the variable
-    store_input_number.append(number)
+    store_input_number.append(input_number)
 
 unique_numbers = []
 
