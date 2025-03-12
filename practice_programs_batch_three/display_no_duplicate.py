@@ -25,3 +25,6 @@ print("\nThe numbers that are unique are: ")
 if len(unique_numbers) > 0:
     for unique in unique_numbers:
         print(unique)
+# if none, print "There are none input number"
+else:
+    print("There are none unique number")
