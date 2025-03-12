@@ -6,6 +6,14 @@ for number in range(10):
     # store the input number to the variable
     store_input_number.append(number)
 
+unique_numbers = []
+
 # check if input number is unique
+for input_number in store_input_number:
+    count = 0
+    # check if input number is not unique
+    for check in store_input_number:
+        if input_number == check:
+            count += 1
 
 # print the result
