@@ -11,8 +11,11 @@ while True:
     # stop program if input is not numerical
     except ValueError:
         print("The input must be numerical")
-        
+        break
+
 # exit loop and find the highest number in list
+if store_input_numbers:
     # print the result
+    print("The highest number recorded was:", max(store_input_numbers))   
 # if no numbers were entered
     # print none
