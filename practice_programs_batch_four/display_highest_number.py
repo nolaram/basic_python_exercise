@@ -5,7 +5,9 @@ store_input_numbers = []
 while True:
     try:
         input_number = int(input("Enter a number: "))
-    # store input number
+        # store input number
+        store_input_numbers.append(input_number)
+        
 # stop program if input is not numerical
 # exit loop and find the highest number in list
     # print the result
