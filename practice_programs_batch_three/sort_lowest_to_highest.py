@@ -14,8 +14,13 @@ while True:
     except ValueError:
         print("The input must be numerical")
         break
-    
+
 # exits loop and sorts the input numbers stored in list
+if stored_input_number:
+    stored_input_number.sort()
     # print the result
+    print("The entered numbers from lowest to highest is:")
+    for input_number in stored_input_number:
+        print(input_number)
 # if no numbers were entered
     # print none
