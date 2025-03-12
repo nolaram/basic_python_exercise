@@ -7,7 +7,11 @@ while True:
         input_number = int(input("Enter a number: "))
         # store input numbers to list
         store_input_number.append(input_number)
-# stop program if input is not numerical
+    # stop program if input is not numerical
+    except ValueError:
+        print("The input must be numerical")
+        break
+
 # dictionary of every number input
 # count the frequency of number input
 # find the most frequent number input
