@@ -14,6 +14,8 @@ while True:
     except:
         print("The input must be numerical")
         break
-    
+
 # exit the loop and print the lowest number stored in the list
+if stored_input_number:
+    print("The lowest number is:", min(stored_input_number))
 # if no numbers were entered, print none 
