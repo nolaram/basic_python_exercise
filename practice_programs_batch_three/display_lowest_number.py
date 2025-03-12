@@ -9,7 +9,11 @@ while True:
 
         # store input number
         stored_input_number.append(input_number)
-        
-# stop program if the input is not numerical
+
+    # stop program if the input is not numerical
+    except:
+        print("The input must be numerical")
+        break
+    
 # exit the loop and print the lowest number stored in the list
 # if no numbers were entered, print none 
