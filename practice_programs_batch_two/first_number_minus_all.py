@@ -8,3 +8,4 @@ for number in range(10):
     total -= difference
     
 # print the difference
+print(f"\nThe difference is: {total}")
