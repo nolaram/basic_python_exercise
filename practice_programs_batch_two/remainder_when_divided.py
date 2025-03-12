@@ -7,7 +7,7 @@ try:
     remainder = number_one % number_two
 
     # print the remainder
-    print(f"\nThe quotient of the two numbers is: {remainder}")
+    print(f"\nThe remainder of the two numbers is: {remainder}")
 
 # added so that the user cannot devide by zero
 except ZeroDivisionError:
